@@ -1,12 +1,12 @@
 # TENGU 👺
 
-TENGU (Transcript-signal ENrichment and Grouping Unit) is a Python package for processing and analyzing 10x Genomics Visium HD spatial transcriptomics data. It provides tools for aggregating 2µm bins into cell-level expression profiles.
+TENGU (Transcript-signal ENrichment and Grouping Unit) is a Python package for processing and analyzing 10x Genomics Visium HD spatial transcriptomics data. It provides tools for aggregating 2µm bins into expression profiles of segmented units.
 
 ## Features
 
--   Aggregation of transcription peaks to approximate cell boundaries.
--   Image segmentation using pre-trained StarDist models.
--   Deconvolution of bin-level data to cell-level `AnnData` objects.
+-   Aggregation of transcription peaks to approximate cell boundaries with a cell simulation option.
+-   Deconvolution of bin-level data to `AnnData` or `zarr` objects of segmented units.
+-   Secondary analyses such as cell type annotation and cell-cell communication.
 
 ## Installation
 
@@ -19,4 +19,4 @@ pip install git+https://github.com/visanuwan/TENGU.git
 ## Citation
 
 Please cite the following article if you use TENGU in your research
-> Visanu Wanchai, Cecile Bustamante-Gomez, Alongkorn Kurilung, Maria Almeida, Charles O’Brien, Intawat Nookaew, TENGU: A Computational Pipeline for High-Fidelity Cellular Deconvolution of Spatial Transcriptomics in Mesenchymal Cells, *[Manuscript in preparation]* 2025.<br>
+> Visanu Wanchai, Nancy C. Bustamante-Gomez, Alongkorn Kurilung, Karen E. Beenken, Sergio Cortes, Mark S. Smeltzer, Yuet-Kin Leung, Jinhu Xiong, Maria Almeida, Charles A. O'Brien, Intawat Nookaew, TENGU: A Computational Pipeline for High-Fidelity Cellular Deconvolution of Spatial Transcriptomics in Mesenchymal Cells, *[Manuscript in preparation]* 2025.<br>
