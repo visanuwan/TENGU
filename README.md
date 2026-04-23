@@ -19,4 +19,4 @@ pip install git+https://github.com/visanuwan/TENGU.git
 ## Citation
 
 Please cite the following article if you use TENGU in your research
-> Visanu Wanchai, Nancy C. Bustamante-Gomez, Alongkorn Kurilung, Karen E. Beenken, Sergio Cortes, Mark S. Smeltzer, Yuet-Kin Leung, Jinhu Xiong, Maria Almeida, Charles A. O'Brien, Intawat Nookaew, TENGU: A Computational Pipeline for High-Fidelity Cellular Deconvolution of Spatial Transcriptomics in Mesenchymal Cells, *[Manuscript in preparation]* 2025.<br>
+> Visanu Wanchai, Nancy C. Bustamante-Gomez, Alongkorn Kurilung, Karen E. Beenken, Sergio Cortes, Mark S. Smeltzer, Yuet-Kin Leung, Jinhu Xiong, Maria Almeida, Charles A. O'Brien, Intawat Nookaew, A transcriptomic-driven segmentation and cell simulation framework for high-resolution spatial transcriptomics and cell-cell communication, *[Manuscript submitted for publication]* 2026.<br>
