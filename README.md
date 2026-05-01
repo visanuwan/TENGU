@@ -1,6 +1,6 @@
 # TENGU 👺
 
-TENGU (Transcript-signal ENrichment and Grouping Unit) is a Python package for processing and analyzing 10x Genomics Visium HD spatial transcriptomics data. It provides tools for aggregating 2µm bins into expression profiles of segmented units.
+TENGU (Transcript-signal ENrichment and Grouping Unit) is a Python package for processing and analyzing 10x Genomics Visium HD spatial transcriptomics data. It provides tools for aggregating 2µm bins into expression profiles of segmented units. [![DOI](https://zenodo.org/badge/1058784315.svg)](https://doi.org/10.5281/zenodo.19962173)
 
 ## Features
 
